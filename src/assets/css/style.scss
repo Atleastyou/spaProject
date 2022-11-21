@@ -1,0 +1,179 @@
+@import 'reset.scss';
+@import 'font.scss';
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-family: sans-serif;
+  min-width: 1614px;
+}
+
+body {
+  line-height: 1;
+  font-size: 14px;
+  color: #4D4D4D;
+  min-width: 1180px;
+}
+
+a {
+  display: inline-block;
+  text-decoration: none;
+  color: #333;
+}
+
+img {
+  vertical-align: bottom;
+}
+
+button {
+  appearance: none;
+  outline: none
+}
+.container {
+  width: 1614px;
+  margin: 0 auto;
+}
+.btn-gradient {
+  background-image: linear-gradient(-90deg, #FFBE28 0%, #FFE051 100%);
+  color: #000;
+  cursor: pointer;
+}
+.btn-default {
+  border: 1px solid #131313;
+  background: #fff;
+  color: #131313;
+  cursor: pointer;
+}
+.section-title {
+  font-size: 50px;
+  line-height: 70px;
+  font-weight: 600;
+}
+.section-title.white {
+  color: #fff;
+}
+.section-title.black {
+  color: #000;
+}
+.detail-desc {
+  margin-top: 20px;
+}
+.detail-desc p {
+  font-size: 20px;
+  color: #666;
+  line-height: 30px;
+  color: #333;
+}
+.detail-desc p.margin-top {
+  margin-top: 10px;
+}
+.detail-desc p.strong {
+  font-size: 24px;
+  font-weight: bold;
+  color: #333;
+}
+.detail-desc p.gray {
+  color: #666;
+}
+.detail-desc p.green {
+  color: #00A077;
+}
+.detail-desc p .green {
+  color: #00A077;
+}
+.detail-desc p.red {
+  color: #D4110E;
+}
+.detail-desc p.blue {
+  color: #3261A2;
+}
+.detail-desc p.yellow {
+  color: #FCD200;
+}
+.detail-desc p.orage {
+  color: #D55413;
+}
+.detail-desc p .orage {
+  color: #D55413;
+}
+.detail-desc p.point {
+  position: relative;
+  padding-left: 10px;
+}
+.detail-desc p.border_b {
+  padding-bottom: 20px;
+  border-bottom: 1px dashed #666;
+}
+.detail-desc .box {
+  margin-top: 10px;
+  padding: 20px 40px;
+  border: 1px solid #333;
+}
+.detail-desc p.indentation {
+  padding-left: 20px;
+}
+.detail-desc p.point:before {
+  content: '';
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background: #00A077;
+  position: absolute;
+  top: 50%;
+  left: 0;
+  transform: translateY(-50%);
+}
+.detail-desc p.point.black:before {
+  content: '';
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background: #333;
+  position: absolute;
+  top: 50%;
+  left: 0;
+  transform: translateY(-50%);
+}
+.detail-desc p.background strong {
+  display: inline-block;
+  height: 100%;
+  padding: 0 10px;
+  color: #fff;
+  background: #666666;
+}
+.detail-desc p.info {
+  color: #666;
+}
+.detail-desc p .p-label {
+  min-width: 100px;
+  display: inline-block;
+}
+.lable-border {
+  border-left: 2px solid #333;
+  padding-left: 10px;
+}
+.small {
+  font-size: 16px;
+}
+.detail-desc p .triangle {
+  display: inline-block;
+  width: 0;
+  height: 0;
+  border-left: 4px solid transparent;
+  border-right: 4px solid transparent;
+  border-bottom: 7px solid #666;
+  margin-bottom: 2px;
+  margin-right: 5px;
+}
+.ueditor-card-section {
+  background: #E6E6E6;
+}
+.detail-desc p.border {
+  padding-bottom: 10px;
+  border-bottom: 1px solid #A2A2A2;
+}
+.swiper-container-fade .swiper-slide {
+  pointer-events: auto !important;
+}

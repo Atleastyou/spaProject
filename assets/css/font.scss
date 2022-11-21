@@ -1,0 +1,28 @@
+@font-face {
+  font-family: 'iconfont';  /* project id 2009829 */
+  src: url('//at.alicdn.com/t/font_2009829_ar7k7y7p6ea.eot');
+  src: url('//at.alicdn.com/t/font_2009829_ar7k7y7p6ea.eot?#iefix') format('embedded-opentype'),
+  url('//at.alicdn.com/t/font_2009829_ar7k7y7p6ea.woff2') format('woff2'),
+  url('//at.alicdn.com/t/font_2009829_ar7k7y7p6ea.woff') format('woff'),
+  url('//at.alicdn.com/t/font_2009829_ar7k7y7p6ea.ttf') format('truetype'),
+  url('//at.alicdn.com/t/font_2009829_ar7k7y7p6ea.svg#iconfont') format('svg');
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  font-family: "iconfont" !important;
+  speak: none;
+  font-style: normal;
+  font-weight: 400;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  vertical-align: baseline;
+  display: inline-block;
+  -webkit-font-smoothing: antialiased;
+}
+
+.icon-colon:before { content: "\e739"; }
+.icon-ziyuan:before { content: "\e73f"; }
+.icon-keliu:before { content: "\e741"; }
+.icon-fangfa:before { content: "\e742"; }
+.icon-bangshou:before { content: "\e743"; }

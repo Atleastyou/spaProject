@@ -1,0 +1,20 @@
+@import 'reset.scss';
+@import 'font.scss';
+
+body {
+  color: #333;
+}
+p, span {
+  line-height: 1;
+}
+.container {
+  width: 1250px;
+  height: 100%;
+  margin: 0 auto;
+}
+img {
+  vertical-align: bottom;
+}
+a {
+  text-decoration: none
+}
